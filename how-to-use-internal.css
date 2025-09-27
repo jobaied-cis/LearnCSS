@@ -1,0 +1,23 @@
+<DOCTYPE HTML!>
+<html>
+<head>
+    <title>How to use inline CSS</title> 
+    <style type="text/css">
+        h1 {
+            color:blue;
+            text-align:center;
+            font-size:40px;
+        }
+        p {
+            color:red;
+            text-align:center;
+        }
+    </head>
+<body>  
+    <h1> my name is akash   </h1>
+    <p> i am learning css </p>
+    <h1> my name is chowdhury   </h1>
+    <p> i am learning css internal use </p>
+    
+</body>
+</html>
