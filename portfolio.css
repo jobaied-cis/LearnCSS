@@ -1,0 +1,34 @@
+:root{
+  --bg: #0b0b0b;
+  --muted: #9aa0a6;
+  --card: #1d1f23;
+}
+
+body{
+  background: var(--bg);
+  color: #e9ecef;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+/* profile image */
+.profile-img{
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 4px solid rgba(255,255,255,0.04);
+}
+
+/* smaller screens */
+@media (max-width: 576px){
+  .profile-img { width: 160px; height: 160px; }
+}
+
+/* cards */
+.card { background: #151617; border: none; }
+.bg-black { background: #0b0b0b !important; }
+a { color: #f8f9fa; }
+a:hover { text-decoration: none; opacity: 0.9; }
+
+/* subtle container */
+.container { max-width: 1100px; }
